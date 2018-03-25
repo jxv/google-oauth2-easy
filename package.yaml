@@ -20,7 +20,7 @@ ghc-options: -Wall
 
 library:
   dependencies:
-  - base
+  - base >=4.7 && <5
   - aeson
   - unordered-containers
   - http-api-data
